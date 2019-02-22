@@ -1,0 +1,9 @@
+.vscode/
+*.egg-info/
+dist/*.egg-info/
+dist/
+bin/
+include/
+lib/
+local/
+share/

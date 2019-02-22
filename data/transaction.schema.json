@@ -1,0 +1,87 @@
+{
+  "id": 156077,
+  "num_rows": 1000,
+  "file_format": "json",
+  "name": "transaction",
+  "array": true,
+  "columns": [
+    {
+      "name": "account_number",
+      "null_percentage": 0,
+      "type": "Dataset Column",
+      "dataset": "transaction_dataset",
+      "column": "account_number",
+      "selectionStyle": "cartesian",
+      "formula": ""
+    },
+    {
+      "name": "first_name",
+      "null_percentage": 0,
+      "type": "First Name",
+      "formula": ""
+    },
+    {
+      "name": "last_name",
+      "null_percentage": 0,
+      "type": "Last Name",
+      "formula": ""
+    },
+    {
+      "name": "city",
+      "null_percentage": 0,
+      "type": "City",
+      "formula": ""
+    },
+    {
+      "name": "country",
+      "null_percentage": 0,
+      "type": "Country",
+      "countries": [
+
+      ],
+      "formula": ""
+    },
+    {
+      "name": "post_code",
+      "null_percentage": 0,
+      "type": "Postal Code",
+      "formula": ""
+    },
+    {
+      "name": "transaction_lat",
+      "null_percentage": 0,
+      "type": "Latitude",
+      "formula": ""
+    },
+    {
+      "name": "transaction_long",
+      "null_percentage": 0,
+      "type": "Longitude",
+      "formula": ""
+    },
+    {
+      "name": "transaction_vendor_name",
+      "null_percentage": 0,
+      "type": "Company Name",
+      "formula": ""
+    },
+    {
+      "name": "transaction_amount",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 1,
+      "max": 5000,
+      "decimals": 2,
+      "formula": ""
+    },
+    {
+      "name": "transaction_time",
+      "null_percentage": 0,
+      "type": "Date",
+      "min": "2/26/2018",
+      "max": "2/26/2019",
+      "format": "%Y-%m-%dT%H:%M:%SZ",
+      "formula": ""
+    }
+  ]
+}
